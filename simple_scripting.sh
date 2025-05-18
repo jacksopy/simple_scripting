@@ -23,5 +23,5 @@ elif [ $choix == 2 ]; then
     bash main_osint.sh
 else
     clear
-    ./simple_scripting.sh
+    bash simple_scripting.sh
 fi
