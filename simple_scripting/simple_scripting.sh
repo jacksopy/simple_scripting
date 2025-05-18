@@ -21,3 +21,4 @@ elif [ $choix == 2 ]; then
     ./code/main_osint.sh
 else
     ./simple_scripting.sh
+fi
