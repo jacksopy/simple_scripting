@@ -1,3 +1,4 @@
+clear
 echo " ▒█████    ██████  ██▓ ███▄    █ ▄▄▄█████▓    ▄████▄    ██████  ██▓ ███▄    █ ▄▄▄█████▓"
 echo "▒██▒  ██▒▒██    ▒ ▓██▒ ██ ▀█   █ ▓  ██▒ ▓▒   ▒██▀ ▀█  ▒██    ▒ ▓██▒ ██ ▀█   █ ▓  ██▒ ▓▒"
 echo "▒██░  ██▒░ ▓██▄   ▒██▒▓██  ▀█ ██▒▒ ▓██░ ▒░   ▒▓█    ▄ ░ ▓██▄   ▒██▒▓██  ▀█ ██▒▒ ▓██░ ▒░"
@@ -13,7 +14,7 @@ echo "+ lookup nazapi / lookup phone / lookup snus / lookup db +"
 echo "+---------------+--------------+-------------+-----------+"
 echo "+       1       /       2      /      3      /      4    +"
 echo "+---------------+--------------+-------------+-----------+"
-echo "$" && read choix
+echo "$     98 pentest" && read choix 
 if [ $choix == 2 ]; then
     clear
     cd osint
@@ -32,7 +33,10 @@ elif [ $choix == 4 ]; then
     clear
     cd osint
     bash lookup_db.sh
+elif [ $choix == 98 ]; then
+    clear
+    bash main_pentest.sh
 else
     clear
-    ./main_osint.sh
+    bash main_osint.sh
 fi                 
