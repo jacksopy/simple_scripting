@@ -19,3 +19,5 @@ if [ $choix == 1 ]; then
 elif [ $choix == 2 ]; then
     clear 
     ./code/main_osint.sh
+else
+    ./simple_scripting.sh
