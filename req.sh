@@ -8,7 +8,8 @@ chmod +x simple_sqlmap.sh
 chmod +x simple_ffuf.sh
 chmod +x simple_netcat.sh 
 chmod +x simple_searchsploit.sh
-chmod +x simple_nmap.sh
+chmod +x simple_nmap.
+chmod +x simple_wpscan.sh
 cd ..
 cd osint
 chmod +x lookup_db.sh
@@ -16,3 +17,4 @@ chmod +x lookup_num.sh
 cd ..
 cd ..
 pip install requests
+
